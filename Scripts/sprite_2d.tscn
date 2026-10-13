@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://c375sbaodbs83"]
+
+[ext_resource type="Script" uid="uid://c82codessa6g0" path="res://texture_rect.gd" id="1_in245"]
+
+[node name="Sprite2D" type="Sprite2D" unique_id=111205793]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=498630389]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_in245")
+metadata/_edit_use_anchors_ = true
+
+[connection signal="gui_input" from="TextureRect" to="TextureRect" method="_on_gui_input"]
